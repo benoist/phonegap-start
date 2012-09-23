@@ -1,25 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns		= "http://www.w3.org/ns/widgets"
 	xmlns:gap	= "http://phonegap.com/ns/1.0"
-	id		= "com.alunny.amazing"
+	id		= "nl.web2000.ios"
 	version 	= "1.0.0">
 
-	<name>alunnys Amazing App</name>
+	<name>iOS test app</name>
 
 	<description>
-		An Amazing app by alunny
+		First app to test on iOS
 	</description>
 
-	<author href="http://alunny.github.com"
-		email="andrew.lunny@nitobi.com">
-		Andrew Lunny
+	<author href="http://benoist.github.com"
+		email="info@web2000.nl">
+    Benoist Claassen
 	</author>
 
 	<gap:platforms>
-		<gap:platform name="android" minVersion="2.1" />
-		<gap:platform name="webos" />
-		<gap:platform name="symbian.wrt" />
-		<gap:platform name="blackberry" project="widgets"/>
+		<gap:platform name="ios" />
 	</gap:platforms>
 
 	<icon src="blurry.png" gap:role="default" />
